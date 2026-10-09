@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Login Animation</title>
+    <!-- ربط ملف الـ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- المصباح -->
+        <div class="lamp-container">
+            <div class="wire"></div>
+            <div class="lamp-shade">
+                <div class="bulb"></div>
+            </div>
+            <!-- حبل التشغيل -->
+            <div class="cord" id="cord">
+                <div class="handle"></div>
+            </div>
+        </div>
+
+        <!-- نموذج تسجيل الدخول -->
+        <div class="login-box" id="loginBox">
+            <h2>Welcome</h2>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button id="loginBtn">Sign In</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- ربط ملف الـ JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
